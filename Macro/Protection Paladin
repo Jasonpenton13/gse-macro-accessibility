@@ -1,0 +1,23 @@
+# Protection Paladin - GSE Macro Sequence
+# Author: Jason Penton
+
+# Block 1 - Core Attack / Shield Throw
+/targetenemy [noharm][dead]
+/cast [mod:ctrl,nochanneling] Word of Glory; [nochanneling] Avenger's Shield
+
+# Block 2 - Shield of the Righteous / Hammer of Light / Wings
+/targetenemy [noharm][dead]
+/cast [mod:ctrl,nochanneling] Word of Glory; [known:Hammer of Light,nochanneling] Hammer of Light; [nochanneling] Shield of the Righteous
+/cast [combat,nochanneling] Avenging Wrath
+
+# Block 3 - Builder Rotation
+/targetenemy [noharm][dead]
+/castsequence [mod:ctrl,nochanneling] Word of Glory; [nochanneling] reset=combat Blessed Hammer, Consecration, Blessed Hammer, Blessed Hammer
+
+# Block 4 - Divine Toll Trigger
+/targetenemy [noharm][dead]
+/cast [mod:alt,nochanneling] Word of Glory; [combat,nochanneling] Divine Toll
+
+# Block 5 - Judgment Priority
+/targetenemy [noharm][dead]
+/cast [mod:ctrl,nochanneling] Word of Glory; [nochanneling] Judgment
