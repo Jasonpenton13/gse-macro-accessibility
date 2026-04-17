@@ -1,0 +1,25 @@
+# Retribution Paladin - GSE Macro Sequence
+# Author: Jason Penton
+
+# Overview:
+# Priority-based macro system for Retribution Paladin
+# Designed to handle conditional ability usage and burst windows
+
+# Block 1 - Core Finisher Logic
+/cast [known: Hammer of Light,nomod] Wake of Ashes; [noknown: Hammer of Light,nomod] Templar's Verdict
+
+# Block 2 - Wake of Ashes (Generator / Burst)
+/cast Wake of Ashes
+
+# Block 3 - Divine Toll (Burst Window)
+/cast Divine Toll
+
+# Block 4 - Blade of Justice (Holy Power Generator)
+/cast Blade of Justice
+
+# Block 5 - Judgment (Debuff + Damage)
+/cast Judgment
+
+# Block 6 - Trinket Usage
+/use 13
+/use 14
