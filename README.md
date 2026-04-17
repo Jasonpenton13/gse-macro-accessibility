@@ -1,7 +1,6 @@
-# gse-macro-accessibility
-Accessibility-focused macro system for World of Warcraft using GSE to assist players with limited mobility
-
 # GSE Macro Accessibility Project
+
+Accessibility-focused macro system for World of Warcraft using GSE to assist players with limited mobility.
 
 ## Overview
 This project focuses on creating automation macros using the GSE addon in World of Warcraft to improve accessibility for players with limited mobility.
